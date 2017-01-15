@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Geolocation</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<button id="where-am-i">Where am I?</button>  
+		<p id="location"></p>
+		<img src="" id="map">
+	</body>
+	<!-- <script src="geolocation.js"></script> -->
+	<script>
+		
+	if ("geolocation" in navigator) {
+		  var button = document.getElementById('where-am-i');
+		  button.addEventListener('click', getLocation);
+		} else {
+		  alert("Geolocation is not available")
+		}
+
+		function getLocation() {
+		  navigator.geolocation.getCurrentPosition(onLocation, onError, options);
+		}
+		var options = {
+		  enableHighAccuracy: true,
+		  timeout: 5000,
+		  maximumAge: 0
+		};
+
+		function onLocation (position) {
+		  var lat = position.coords.latitude;
+		  var lon = position.coords.longitude;
+		  document.getElementById('location').innerHTML = "Current position: " + lat + " Latitude " + lon + " Longitude.";
+		  displayMap(lat, lon);
+		}
+
+		function onError(error) {
+		  console.log("Getting location failed: " + error);
+		}
+
+		function displayMap(lat, lon) {
+		  var urlRoot = "https://maps.googleapis.com/maps/api/staticmap?center=";
+		  var urlParams = "&zoom=13&size=800x800";
+		  var url = urlRoot + lat + "," + lon + urlParams;
+		  var map = document.getElementById('map');
+		  map.setAttribute("src", url);
+		}
+
+	</script>
+</html>

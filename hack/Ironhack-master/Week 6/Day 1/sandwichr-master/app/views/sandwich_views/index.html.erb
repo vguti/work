@@ -1,0 +1,3 @@
+<div><% @sandwich.each do |s| %></div>
+	<a href=<%= "/api/v1/sandwiches/#{s.id}" %>><%= s.name %></a>
+<div><% end %></div>

@@ -1,0 +1,39 @@
+<h1>CALCULADORA</h1>
+
+<form action="/suma" method="post">
+	<label for="">Sum</label>
+	<input type="number" name="firstnumsum">+<input type="number" name="secondnumsum">
+	<input type="submit" value="Suma">
+</form>
+	<br>
+<form action="/multiplicacion" method="post">
+	<label for="">Mul</label>
+	<input type="number" name="firstnummult">X<input type="number" name="secondnummult">
+	<input type="submit" value="Multiplica">
+</form>
+	<br>
+<form action="/resta" method="post">
+	<label for="">Res</label>
+	<input type="number" name="firstnumrest">-<input type="number" name="secondnumrest">
+	<input type="submit" value="Resta">
+</form>
+	<br>
+<form action="/division" method="post">
+	<label for="">Div</label>
+	<input type="number" name="firstnumdiv">/<input type="number" name="secondnumdiv">
+	<input type="submit" value="Divide">
+</form>
+	<br>
+<form action="/extreme" method="post">
+	<label for="">Magic</label>
+	<input type="number" name="firstext"> 
+		<select name="operator">
+		  <option value="+">Add</option>
+		  <option value="-">Rest</option>
+		  <option value="*">Multi</option>
+		  <option value="/">Div</option>
+		</select> 
+	<input type="number" name="secondext">
+	<input type="submit" value="Magic">
+</form>
+

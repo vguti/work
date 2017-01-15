@@ -1,0 +1,2 @@
+# Result = 39
+puts 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa, possimus ipsum perferendis nesciunt velit molestias aliquid delectus repellat praesentium, autem, odio optio incidunt? Ipsum ipsa ut inventore, deserunt dolores.?'.length

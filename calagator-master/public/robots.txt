@@ -1,0 +1,16 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+
+# Allow visits to all pages, except the edit forms
+User-Agent: *
+Disallow: /omfg
+Disallow: /changes
+Disallow: /sources
+Disallow: /sources/import
+Disallow: /sources/new
+Disallow: /events/new
+Disallow: /venues/new
+Disallow: /events/duplicates
+Disallow: /venues/duplicates
+Disallow: /events/*/edit
+Disallow: /venues/*/edit
+Disallow: /sources/*/edit

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $('form').on('submit', function(event){
+        var isFilled = true;
+        var inputs = $('form input[type="text"]')
+        for(var i = 0; i<inputs.length;i++){
+          if(inputs[i].value === ""){
+            isFilled = false;
+          } 
+        }
+​
+        if(!isFilled){
+          event.preventDefault();
+        }
+        console.log("hi");
+      })
+    })
+    </script>
+  </head>
+  <body>
+    <form>
+      <input type="text">
+      <input type="text">
+      <input type="submit">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

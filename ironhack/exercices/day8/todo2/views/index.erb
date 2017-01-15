@@ -1,0 +1,17 @@
+
+<html>
+<head>
+  <title>TodoList</title>
+</head>
+<body>
+  <h1>Welcome to the TodoList</h1>
+<div id="article">
+  <% @list.each do |task| %>
+    <h2><%= task.content %></h2>
+  <% end %>
+  <p>
+    <a href="/new_task" class="button">New task</a>
+  </p>
+</div>
+</body>
+</html>

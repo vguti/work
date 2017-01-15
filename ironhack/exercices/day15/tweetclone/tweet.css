@@ -1,0 +1,39 @@
+#head1 {
+	text-align: left;
+}
+
+#head2 {
+	text-align: center;
+}
+#head3 {
+	text-align: right;
+}
+
+header {
+	padding:5px 5px 5px 5px;
+}
+
+header li {
+	padding-right: 10px;
+	display: inline;
+	list-style: none;
+
+}
+header p {
+	display: inline;
+	}
+
+header img {
+	text-align: center;
+	height: 23px;
+	width: 23px;
+}
+#page{
+	margin:0px 0px 0px 0px;
+}
+
+#mainhead img{
+	width: 100%;
+	position: relative;
+	left: 0px;
+}

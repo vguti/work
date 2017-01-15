@@ -1,0 +1,15 @@
+%h1 Hey you!!
+
+- if @error
+  %h2= @error
+
+%form{action: "new_tweet", method: "post" }
+  %input{name: "body", type: "text", value: @body}
+
+%ul
+  - @@twits.each do |twit|
+    %li
+      == (#{twit.body_size})
+      = twit.body
+      \===>
+      = twit.valid? ? "valid" : "invalid"

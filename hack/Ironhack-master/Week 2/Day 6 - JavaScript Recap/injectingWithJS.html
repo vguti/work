@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Injecting With JavaScript</title>
+</head>
+<body>
+	<div class="js-paragraph">my text goes here!</div>
+	<div class="no-js-class">my text continues here...</div>
+<script>
+	var element = document.getElementsByClassName('js-paragraph');
+	var line = document.createElement('hr')
+	element[0].appendChild(line);
+</script>
+</body>
+</html>

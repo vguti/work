@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinatra Login Exercise</title>
+</head>
+<body>
+	<h1>MY HOME PAGE</h1>
+
+	<h2><%= @error %></h2>
+
+	<form action="/form_receptor" method="POST">
+		<input type="text" id="name" name="username" />
+		<input type="text" id="password" name="password" />
+  	<button type="submit">Login</button>
+  </form>
+</body>

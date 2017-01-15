@@ -1,0 +1,18 @@
+<h2>Details of: <%= @product.title %></h2>
+
+<p><%= "#{@product.deadline} - #{@product.description}" %></p>
+
+<h3>Bidding form!</h3>
+
+<!-- OJO AL ERROR QUE VA A DAR -->
+
+<%= form_for [@product, bid] do |f| %>
+
+	<%= label_tag  :email %>
+	<%= text_field_tag :email %>
+	<br>
+	<%= f.label  :amount %>
+	<%= f.text_field :amount %>
+
+	<%= f.button %>
+<% end %>

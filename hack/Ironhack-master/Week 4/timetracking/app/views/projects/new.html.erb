@@ -1,0 +1,21 @@
+<h1>Add new project</h1>
+
+<% if @project.errors.any? %> 
+	<ul>
+		<% @project.errors.full_messages.each do |error_msg| %>
+			<li><%= error_msg %></li>
+		<% end %>
+	</ul>
+<% end %>
+
+<%= form_for @project do |f| %>
+
+	<!-- This is the way to use CSS classes in this Rails Helper => , class: 'name_of_your_class  second_class'  -->
+	<%= f.label  :name, class: 'name_of_your_class  second_class'  %>
+	<%= f.text_field :name %>
+	<br>
+	<%= f.label :description %>
+	<%= f.text_area :description %>
+
+	<%= f.button %>
+<% end %>

@@ -1,0 +1,19 @@
+button{
+	height: 500px;
+	width: 700px;
+	position:absolute;
+	left: 20%;
+	top: 20%;
+	transition-property: background;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+
+button:hover{
+	background: black;
+}
+
+
+

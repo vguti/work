@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  winner_faction: MyString
+  loser_faction: MyString
+  duration: 2016-07-13 15:47:54
+  date: 2016-07-13 15:47:54
+
+two:
+  winner_faction: MyString
+  loser_faction: MyString
+  duration: 2016-07-13 15:47:54
+  date: 2016-07-13 15:47:54

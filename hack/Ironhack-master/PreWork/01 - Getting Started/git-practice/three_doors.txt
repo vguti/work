@@ -1,0 +1,3 @@
+Which door will you go through?
+You are in a room with three doors
+I would close the first door

@@ -1,0 +1,9 @@
+body {
+	background: url(https://pixabay.com/static/uploads/photo/2016/01/11/22/05/background-1134468_960_720.jpg)
+	no-repeat;
+	background-position: 10% -10%;
+	background-color: rgba(100,0,0,0.8);
+	background-color: #E0E0E0;
+	background: linear-gradient(to right, #660000, #ff9900,#00b300,#008080,#5200cc);
+	height: 1000px;
+}

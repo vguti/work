@@ -1,0 +1,10 @@
+p {
+	width: 100px;
+	height: 100px;
+	border: 100px;
+	border-top: 500px solid transparent;
+	border-left: 500px solid transparent;
+	border-right: : 500px solid transparent;
+	border-bottom: : 500px solid green;
+
+}

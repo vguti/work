@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 bf08de4244137c1bb7f09398a8712c18e8f7e5e2 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426474 +0200	commit (initial): first commit
+bf08de4244137c1bb7f09398a8712c18e8f7e5e2 3c14f9636f76b287c5521be61197d926fb43ed84 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426572 +0200	commit: Añadido texto nuevo al archivo
+3c14f9636f76b287c5521be61197d926fb43ed84 e7f0032dd60121dc6acea3bd4b3210259da75a91 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426788 +0200	commit: añadido texto a first_choice.txt
+e7f0032dd60121dc6acea3bd4b3210259da75a91 3c14f9636f76b287c5521be61197d926fb43ed84 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426854 +0200	checkout: moving from master to 3c14f96
+3c14f9636f76b287c5521be61197d926fb43ed84 3c14f9636f76b287c5521be61197d926fb43ed84 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426924 +0200	checkout: moving from 3c14f9636f76b287c5521be61197d926fb43ed84 to feature
+3c14f9636f76b287c5521be61197d926fb43ed84 e7f0032dd60121dc6acea3bd4b3210259da75a91 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426935 +0200	checkout: moving from feature to master
+e7f0032dd60121dc6acea3bd4b3210259da75a91 3c14f9636f76b287c5521be61197d926fb43ed84 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426948 +0200	checkout: moving from master to feature
+3c14f9636f76b287c5521be61197d926fb43ed84 e7f0032dd60121dc6acea3bd4b3210259da75a91 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463426952 +0200	checkout: moving from feature to master
+e7f0032dd60121dc6acea3bd4b3210259da75a91 81f24e95bee5f77afe8bc9d932000861d3230d34 IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463427012 +0200	commit: Añadido texto a second_choice.txt
+81f24e95bee5f77afe8bc9d932000861d3230d34 056cfaeebf9124c334fe3d8bfbeb7ad98a38eddd IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463427094 +0200	commit: Subo todo
+056cfaeebf9124c334fe3d8bfbeb7ad98a38eddd 056cfaeebf9124c334fe3d8bfbeb7ad98a38eddd IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463427146 +0200	checkout: moving from master to new
+056cfaeebf9124c334fe3d8bfbeb7ad98a38eddd 056cfaeebf9124c334fe3d8bfbeb7ad98a38eddd IgnaciodeNuevo <ignaciodenuevo@gmail.com> 1463427254 +0200	checkout: moving from new to master

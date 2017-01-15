@@ -1,0 +1,32 @@
+
+for num in 1..100
+result = ""
+if num % 3 == 0
+    result = result + "Fizz"
+end
+if num % 3 == 0 && num % 5 == 0
+    result = result + "Buzz"
+end
+if num % 3 == 0 && num % 5 == 0 && (num > 9 && num < 20)
+    result = result + "Bang"
+end
+if num % 3 == 0 && (num > 9 && num < 20) && num != 15
+    result = "FizzBang"
+end
+if num % 5 == 0 && num !=15 && num % 3 != 0
+    result = "Buzz"
+end
+if (num % 5 == 0 && (num > 9 && num < 20) && num !=15) || num == 100
+    result = result + "Bang"
+end
+if (num > 9 && num < 20) && num % 3 != 0 && num % 5 != 0  || num == 1
+    result = "Bang"
+end
+if (num % 3 != 0) && (num % 5 !=0) && (num >= 2 && num <=9)
+    print "#{num}"
+end
+if (num % 3 != 0) && (num % 5 !=0) && (num >= 20)
+    print "#{num}"
+end
+    puts "#{result}"
+end

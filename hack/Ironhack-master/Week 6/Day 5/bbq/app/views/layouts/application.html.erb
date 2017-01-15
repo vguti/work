@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbecues</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application', defer: true %>
+  <%= csrf_meta_tags %>
+</head>
+<body data-hook="controller-<%= controller_name %> action-<%= action_name %>">
+
+<% if user_signed_in? %>
+	<p style="color:blue;text-align:left;margin-left:50px;margin-top:15px">
+		<span style="padding:5px"> Logged in as: <%= current_user.name %> </span>
+		<span style="padding:5px"><%= link_to'Logout', destroy_user_session_path, :method => :delete %></span>
+	</p>
+<% else %>
+	<p style="color:blue;text-align:left;margin-left:50px;margin-top:15px"> 
+		<span style="padding:5px"><%= link_to'Login', new_user_session_path %></span>
+		<span style="padding:5px"><%= link_to'Register', new_user_registration_path %></span>
+ 	</p>
+  <% end %>
+  <div class="container">
+    <%= yield %>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ruby Website Test</title>
+</head>
+<body>
+	<h1>My first ruby view!</h1>
+		<%- energy = 2 * rand(1000) %>
+		<%- if energy > 1000 %>
+			I have <%= "this much energy #{energy}" %>
+		<% else %>
+			I'm tired
+		<% end %>
+
+		<% if Date.today.tuesday? %>
+
+		<p>Today is tuesday, yeeeh!</p>
+
+		<% end %>
+
+		<p>Today is: <%= @date %></p>
+</body>
+</html>

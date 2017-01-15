@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+# gem "rails"
+gem 'imdb'
+gem 'sinatra'
+gem 'pry'
+gem 'sinatra-contrib'
+gem 'guard'
+gem 'guard-rspec'
+gem 'rack'
+gem 'rack-test'

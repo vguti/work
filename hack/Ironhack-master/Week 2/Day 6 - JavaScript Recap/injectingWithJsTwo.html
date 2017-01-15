@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Injecting With JavaScript</title>
+</head>
+<body>
+	<p>si</p>
+	<p>o</p>
+	<p>ke</p>
+	<button onclick="addLines();">CLICK!</button>
+<script>
+	var paragraphs = document.getElementsByTagName('p');
+	p = [];
+ 	function addLines(){
+		for (var i = 0; i < paragraphs.length; i++) {
+			var line = document.createElement('hr');
+			paragraphs[i].appendChild(line);
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {background-color: #f5f5f5;
+font-family: 'Roboto', sans-serif;}
+#page {
+	padding: 30px 30px 30px 30px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f5f5f5;
+	max-width: 460px;
+	margin: 0px 0px 0px 0px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	padding: 5px 5px 5px 5px;
+}
+
+article {
+	padding: 10px 10px 10px 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	color: #aaa;
+	
+}
+li {
+	display: inline;
+	margin:3px;
+}
+
+.glyphicon {
+	color:#f3ab4c;
+}
+
+button {
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+}
+
+footer button {
+	border-color: #2889d8;
+	color: #2889d8;
+	margin-left: 10px;
+	border-radius: 20px;
+	padding: 5px 10px 5px 10px;
+}
+
+footer img{
+	width: 40px;
+	height: 40px;
+}
+
+ul li:nth-child(2){
+	color:#f3ab4c;
+}
+
+ul li:nth-child(3){
+	color:red;
+}
+
+#mainhead {
+	color: #aaa;
+	font-size: 14px;
+}
+
+#content {
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+}
+
+#content header{
+	font-size: 16px;
+}
+
+#content article {
+	font-size: 18px;
+}
+
+#content .row {
+	padding-left: 10px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+#content header p {
+	padding-left: 5px;
+}
+

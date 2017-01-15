@@ -1,0 +1,110 @@
+#page {
+	justify-content: center;
+	position: relative;
+	box-sizing: border-box;
+
+}
+
+header ul {
+	list-style: none;
+	overflow: hidden;
+}
+header li {
+	float: left;
+	padding: 5px;
+}
+
+#submenu {
+	padding: 0px 0px;
+    margin: 15px 0px;
+    height: 60px;
+    border-bottom: none;
+    float: left;
+
+}
+
+#slidebox {
+	list-style: none;
+	list-style-position: initial;
+	margin-right: 0px 0px;
+	padding: 0px;
+	align-self: center;
+
+}
+
+.fwidgets {
+	color: white;
+	padding: 40px 0px;
+	background-color: #ed564b;
+	border-top: 5px solid #ed564b;
+	border-bottom: 5px solid #f96b61;
+	text-align: center;
+}
+#corazon,
+#copa,
+#estrella {
+	border-radius: 9999px;
+	border:5px solid white;
+	width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+
+.flex-caption {
+	width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+
+#content {
+	color: black;
+}
+#content h5 {
+	color: #aaa;
+}
+
+#content img {
+	padding: 10px 0px 10px 0px;
+}
+#section1 p {
+	text-align: center;
+}
+#section1 #row1{
+	border-bottom: 2px solid;
+}
+
+#bottom {
+	background-color: #3b3b3b;
+	color:#aaa;
+	padding: 20px 0px 40px 0px;
+	border-top: 5px solid #ed564b;
+}
+#bottom ul {
+	list-style: none;
+	list-style-position: initial;
+	margin-right: 0px 0px;
+	padding: 0px;
+}
+
+#bottom li {
+	padding: 5px 0px 5px 0px;
+	border-bottom: 0.5px dotted;
+}
+
+#bottom h3 {
+	color: white;
+}
+
+
+
+footer {
+	background-color: #292929;
+	color: white;
+	font-size: 12px;
+	padding: 10px 0px 10px 0px;
+}
